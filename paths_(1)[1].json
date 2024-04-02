@@ -1,0 +1,512 @@
+{
+  "Car-1": {
+    "Source Node": "Car-1",
+    "routing path": "[['BS-1']]",
+    "End-to-end transmission rate": "10 Mbps"
+  },
+  "Car-2": {
+    "Source Node": "Car-2",
+    "routing path": "[['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-3": {
+    "Source Node": "Car-3",
+    "routing path": "[('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-4": {
+    "Source Node": "Car-4",
+    "routing path": "[('Car-3', '10 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-5": {
+    "Source Node": "Car-5",
+    "routing path": "[('Car-4', '10 Mbps'), ('Car-3', '10 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-6": {
+    "Source Node": "Car-6",
+    "routing path": "[('Car-5', '10 Mbps'), ('Car-4', '10 Mbps'), ('Car-3', '10 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-7": {
+    "Source Node": "Car-7",
+    "routing path": "[('Car-54', '10 Mbps'), ('Car-6', '10 Mbps'), ('Car-5', '10 Mbps'), ('Car-4', '10 Mbps'), ('Car-3', '10 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-8": {
+    "Source Node": "Car-8",
+    "routing path": "[('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-9": {
+    "Source Node": "Car-9",
+    "routing path": "[('Car-55', '10 Mbps'), ('Car-8', '10 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-10": {
+    "Source Node": "Car-10",
+    "routing path": "[('Car-56', '8 Mbps'), ('Car-9', '8 Mbps'), ('Car-8', '8 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-11": {
+    "Source Node": "Car-11",
+    "routing path": "[('Car-57', '8 Mbps'), ('Car-10', '8 Mbps'), ('Car-56', '8 Mbps'), ('Car-9', '8 Mbps'), ('Car-8', '8 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-12": {
+    "Source Node": "Car-12",
+    "routing path": "[('Car-57', '8 Mbps'), ('Car-10', '8 Mbps'), ('Car-56', '8 Mbps'), ('Car-9', '8 Mbps'), ('Car-8', '8 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-13": {
+    "Source Node": "Car-13",
+    "routing path": "[('Car-57', '8 Mbps'), ('Car-10', '8 Mbps'), ('Car-56', '8 Mbps'), ('Car-9', '8 Mbps'), ('Car-8', '8 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-14": {
+    "Source Node": "Car-14",
+    "routing path": "[('Car-57', '8 Mbps'), ('Car-10', '8 Mbps'), ('Car-56', '8 Mbps'), ('Car-9', '8 Mbps'), ('Car-8', '8 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-15": {
+    "Source Node": "Car-15",
+    "routing path": "[('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-16": {
+    "Source Node": "Car-16",
+    "routing path": "[('Car-15', '8 Mbps'), ('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-17": {
+    "Source Node": "Car-17",
+    "routing path": "[('Car-16', '8 Mbps'), ('Car-15', '8 Mbps'), ('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-18": {
+    "Source Node": "Car-18",
+    "routing path": "[('Car-60', '8 Mbps'), ('Car-16', '8 Mbps'), ('Car-15', '8 Mbps'), ('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-19": {
+    "Source Node": "Car-19",
+    "routing path": "[('Car-61', '8 Mbps'), ('Car-18', '8 Mbps'), ('Car-60', '8 Mbps'), ('Car-16', '8 Mbps'), ('Car-15', '8 Mbps'), ('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-20": {
+    "Source Node": "Car-20",
+    "routing path": "[('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-21": {
+    "Source Node": "Car-21",
+    "routing path": "[('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-22": {
+    "Source Node": "Car-22",
+    "routing path": "[('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-23": {
+    "Source Node": "Car-23",
+    "routing path": "[('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-24": {
+    "Source Node": "Car-24",
+    "routing path": "[('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-25": {
+    "Source Node": "Car-25",
+    "routing path": "[('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-26": {
+    "Source Node": "Car-26",
+    "routing path": "[('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-27": {
+    "Source Node": "Car-27",
+    "routing path": "[('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-28": {
+    "Source Node": "Car-28",
+    "routing path": "[('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-29": {
+    "Source Node": "Car-29",
+    "routing path": "[('Car-70', '8 Mbps'), ('Car-28', '8 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-30": {
+    "Source Node": "Car-30",
+    "routing path": "[('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-31": {
+    "Source Node": "Car-31",
+    "routing path": "[('Car-73', '10 Mbps'), ('Car-30', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-32": {
+    "Source Node": "Car-32",
+    "routing path": "[('Car-73', '8 Mbps'), ('Car-30', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-33": {
+    "Source Node": "Car-33",
+    "routing path": "[('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-34": {
+    "Source Node": "Car-34",
+    "routing path": "[('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-35": {
+    "Source Node": "Car-35",
+    "routing path": "[('Car-77', '8 Mbps'), ('Car-34', '8 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-36": {
+    "Source Node": "Car-36",
+    "routing path": "[('Car-35', '10 Mbps'), ('Car-77', '8 Mbps'), ('Car-34', '8 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-37": {
+    "Source Node": "Car-37",
+    "routing path": "[('Car-79', '10 Mbps'), ('Car-35', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-38": {
+    "Source Node": "Car-38",
+    "routing path": "[('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-39": {
+    "Source Node": "Car-39",
+    "routing path": "[('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-40": {
+    "Source Node": "Car-40",
+    "routing path": "[('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-41": {
+    "Source Node": "Car-41",
+    "routing path": "[('Car-84', '8 Mbps'), ('Car-40', '8 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-42": {
+    "Source Node": "Car-42",
+    "routing path": "[('Car-41', '8 Mbps'), ('Car-84', '8 Mbps'), ('Car-40', '8 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-43": {
+    "Source Node": "Car-43",
+    "routing path": "[('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-44": {
+    "Source Node": "Car-44",
+    "routing path": "[('Car-87', '8 Mbps'), ('Car-43', '8 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-45": {
+    "Source Node": "Car-45",
+    "routing path": "[('Car-44', '8 Mbps'), ('Car-87', '8 Mbps'), ('Car-43', '8 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-46": {
+    "Source Node": "Car-46",
+    "routing path": "[('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-47": {
+    "Source Node": "Car-47",
+    "routing path": "[('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-48": {
+    "Source Node": "Car-48",
+    "routing path": "[('Car-90', '8 Mbps'), ('Car-47', '10 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-49": {
+    "Source Node": "Car-49",
+    "routing path": "[('Car-48', '8 Mbps'), ('Car-90', '8 Mbps'), ('Car-47', '10 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-50": {
+    "Source Node": "Car-50",
+    "routing path": "[('Car-49', '6 Mbps'), ('Car-47', '6 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-51": {
+    "Source Node": "Car-51",
+    "routing path": "[['BS-1']]",
+    "End-to-end transmission rate": "10 Mbps"
+  },
+  "Car-52": {
+    "Source Node": "Car-52",
+    "routing path": "[['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-53": {
+    "Source Node": "Car-53",
+    "routing path": "[('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-54": {
+    "Source Node": "Car-54",
+    "routing path": "[('Car-6', '10 Mbps'), ('Car-5', '10 Mbps'), ('Car-4', '10 Mbps'), ('Car-3', '10 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-55": {
+    "Source Node": "Car-55",
+    "routing path": "[('Car-8', '10 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-56": {
+    "Source Node": "Car-56",
+    "routing path": "[('Car-9', '8 Mbps'), ('Car-8', '8 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-57": {
+    "Source Node": "Car-57",
+    "routing path": "[('Car-10', '8 Mbps'), ('Car-56', '8 Mbps'), ('Car-9', '8 Mbps'), ('Car-8', '8 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-58": {
+    "Source Node": "Car-58",
+    "routing path": "[('Car-57', '8 Mbps'), ('Car-10', '8 Mbps'), ('Car-56', '8 Mbps'), ('Car-9', '8 Mbps'), ('Car-8', '8 Mbps'), ('Car-7', '8 Mbps'), ('Car-5', '8 Mbps'), ('Car-3', '8 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-59": {
+    "Source Node": "Car-59",
+    "routing path": "[('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-60": {
+    "Source Node": "Car-60",
+    "routing path": "[('Car-16', '8 Mbps'), ('Car-15', '8 Mbps'), ('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-61": {
+    "Source Node": "Car-61",
+    "routing path": "[('Car-18', '8 Mbps'), ('Car-60', '8 Mbps'), ('Car-16', '8 Mbps'), ('Car-15', '8 Mbps'), ('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-62": {
+    "Source Node": "Car-62",
+    "routing path": "[('Car-19', '8 Mbps'), ('Car-61', '8 Mbps'), ('Car-18', '8 Mbps'), ('Car-60', '8 Mbps'), ('Car-16', '8 Mbps'), ('Car-15', '8 Mbps'), ('Car-11', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-63": {
+    "Source Node": "Car-63",
+    "routing path": "[('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-64": {
+    "Source Node": "Car-64",
+    "routing path": "[('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-65": {
+    "Source Node": "Car-65",
+    "routing path": "[('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-66": {
+    "Source Node": "Car-66",
+    "routing path": "[('Car-25', '10 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-67": {
+    "Source Node": "Car-67",
+    "routing path": "[('Car-26', '10 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-68": {
+    "Source Node": "Car-68",
+    "routing path": "[('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-69": {
+    "Source Node": "Car-69",
+    "routing path": "[('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-70": {
+    "Source Node": "Car-70",
+    "routing path": "[('Car-28', '8 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-71": {
+    "Source Node": "Car-71",
+    "routing path": "[('Car-70', '8 Mbps'), ('Car-28', '8 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-72": {
+    "Source Node": "Car-72",
+    "routing path": "[('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-73": {
+    "Source Node": "Car-73",
+    "routing path": "[('Car-30', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-74": {
+    "Source Node": "Car-74",
+    "routing path": "[('Car-32', '8 Mbps'), ('Car-73', '8 Mbps'), ('Car-30', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-75": {
+    "Source Node": "Car-75",
+    "routing path": "[('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-76": {
+    "Source Node": "Car-76",
+    "routing path": "[('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-77": {
+    "Source Node": "Car-77",
+    "routing path": "[('Car-34', '8 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-78": {
+    "Source Node": "Car-78",
+    "routing path": "[('Car-35', '10 Mbps'), ('Car-77', '8 Mbps'), ('Car-34', '8 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-79": {
+    "Source Node": "Car-79",
+    "routing path": "[('Car-35', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-80": {
+    "Source Node": "Car-80",
+    "routing path": "[('Car-79', '10 Mbps'), ('Car-35', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-81": {
+    "Source Node": "Car-81",
+    "routing path": "[('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-82": {
+    "Source Node": "Car-82",
+    "routing path": "[('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-83": {
+    "Source Node": "Car-83",
+    "routing path": "[('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-84": {
+    "Source Node": "Car-84",
+    "routing path": "[('Car-40', '8 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-85": {
+    "Source Node": "Car-85",
+    "routing path": "[('Car-41', '8 Mbps'), ('Car-84', '8 Mbps'), ('Car-40', '8 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-86": {
+    "Source Node": "Car-86",
+    "routing path": "[('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-87": {
+    "Source Node": "Car-87",
+    "routing path": "[('Car-43', '8 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-88": {
+    "Source Node": "Car-88",
+    "routing path": "[('Car-44', '8 Mbps'), ('Car-87', '8 Mbps'), ('Car-43', '8 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-89": {
+    "Source Node": "Car-89",
+    "routing path": "[('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-90": {
+    "Source Node": "Car-90",
+    "routing path": "[('Car-47', '10 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-91": {
+    "Source Node": "Car-91",
+    "routing path": "[('Car-47', '10 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-92": {
+    "Source Node": "Car-92",
+    "routing path": "[('Car-48', '8 Mbps'), ('Car-90', '8 Mbps'), ('Car-47', '10 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-93": {
+    "Source Node": "Car-93",
+    "routing path": "[('Car-49', '6 Mbps'), ('Car-47', '6 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-94": {
+    "Source Node": "Car-94",
+    "routing path": "[('Car-93', '10 Mbps'), ('Car-49', '6 Mbps'), ('Car-47', '6 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-95": {
+    "Source Node": "Car-95",
+    "routing path": "[('Car-93', '6 Mbps'), ('Car-49', '6 Mbps'), ('Car-47', '6 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-96": {
+    "Source Node": "Car-96",
+    "routing path": "[('Car-93', '6 Mbps'), ('Car-49', '6 Mbps'), ('Car-47', '6 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-97": {
+    "Source Node": "Car-97",
+    "routing path": "[('Car-95', '10 Mbps'), ('Car-93', '6 Mbps'), ('Car-49', '6 Mbps'), ('Car-47', '6 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-98": {
+    "Source Node": "Car-98",
+    "routing path": "[('Car-95', '6 Mbps'), ('Car-93', '6 Mbps'), ('Car-49', '6 Mbps'), ('Car-47', '6 Mbps'), ('Car-46', '8 Mbps'), ('Car-44', '6 Mbps'), ('Car-43', '6 Mbps'), ('Car-42', '6 Mbps'), ('Car-40', '6 Mbps'), ('Car-39', '6 Mbps'), ('Car-38', '6 Mbps'), ('Car-37', '6 Mbps'), ('Car-36', '6 Mbps'), ('Car-34', '6 Mbps'), ('Car-33', '6 Mbps'), ('Car-32', '6 Mbps'), ('Car-31', '8 Mbps'), ('Car-72', '6 Mbps'), ('Car-29', '6 Mbps'), ('Car-27', '6 Mbps'), ('Car-26', '6 Mbps'), ('Car-25', '6 Mbps'), ('Car-22', '6 Mbps'), ('Car-20', '6 Mbps'), ('Car-62', '6 Mbps'), ('Car-19', '8 Mbps'), ('Car-18', '6 Mbps'), ('Car-16', '6 Mbps'), ('Car-13', '6 Mbps'), ('Car-10', '6 Mbps'), ('Car-9', '6 Mbps'), ('Car-7', '6 Mbps'), ('Car-3', '6 Mbps'), ('Car-2', '6 Mbps'), ['BS-1']]",
+    "End-to-end transmission rate": "6 Mbps"
+  },
+  "Car-99": {
+    "Source Node": "Car-99",
+    "routing path": "[['BS-2']]",
+    "End-to-end transmission rate": "10 Mbps"
+  },
+  "Car-100": {
+    "Source Node": "Car-100",
+    "routing path": "[['BS-2']]",
+    "End-to-end transmission rate": "10 Mbps"
+  },
+  "Car-101": {
+    "Source Node": "Car-101",
+    "routing path": "[['BS-1']]",
+    "End-to-end transmission rate": "0 Mbps"
+  },
+  "Car-102": {
+    "Source Node": "Car-102",
+    "routing path": "[['BS-2']]",
+    "End-to-end transmission rate": "0 Mbps"
+  }
+}
